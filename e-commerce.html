@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>cosmetics</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+<style>
+  header{
+            font-size: 50px;
+            font-style: italic;
+            color: blue;
+        }
+        .navbar{
+            display: flex;
+            align-items:center;
+            padding:20px;
+        }
+        nav{
+            flex:1;
+            text-align: right;
+        }
+        nav ul{
+             display: inline-block;
+             list-style-type: disc;
+        }
+        nav ul li{
+            display:inline-block;
+            margin-right: 30px;
+        }
+        a{
+            text-decoration: none;
+            color:blue;
+            font-style: italic;
+            font-size: 20px;
+        }
+        .container{
+            max-width: 1300px;
+            margin: auto;
+            padding-left: 25px;
+        }
+        #buttons li {
+  float: left;
+  list-style: none;
+  text-align: center;
+  background-color:white;
+  margin-right: 40px;
+  width: 150px;
+  line-height: 60px;
+}
+#buttons li a {
+  text-decoration: none;
+  color: blue;
+  display: block;
+}
+
+#buttons li a:hover {
+  text-decoration: none;
+  color: blue;
+  background-color: #33B5E5;
+  font-size: 40px;
+} 
+.btn{
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 20px;
+  cursor: pointer;
+  display: inline-block;
+}
+.btn:hover{
+  background-color: blueviolet;
+}
+.cart{
+  color: white;
+  font-style: italic;
+  background-color: red;
+}
+   
+    
+.city {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+    }
+ img {
+  max-width: 100%;
+  max-height:100%;
+}
+h1{
+ font-size: 40px;
+ font-style: arial;
+}
+p{
+  font-size: 20px;
+  font-style: italic;
+}
+section{
+  background-color:lightcoral;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+header{
+  font-size: 50px;
+  font-style: italic ;
+  color: blueviolet;
+  text-align: center;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+h2{
+  font-size: 30px;
+  font-style: italic;
+  color: blue;
+}
+h3{
+  font-size: 30px;
+  font-style:italic;
+  color: black;
+}
+p.color{
+  font-size: 20px;
+  color:blueviolet;
+  font-style:italic;
+}  
+.brands{
+  margin:100px auto;
+}
+.col-5{
+  width:160px;
+  flex:33.3%;
+}
+.col-5 img{
+  width:100%;
+  cursor:pointer;
+  filter: grayscale(100%);
+}
+.col-5 img:hover{
+  filter:grayscale(0);
+}
+
+.footer{
+  background-color: #000;
+  color: #8a8a8a;
+  font-size: 14px;
+  padding:60px 0 20px;
+}
+.footer p{
+  color:#8a8a8a;
+}
+.footer h3{
+  color: #fff;
+  margin-bottom: 20px;
+}
+.footer-col-1,.footer-col-2,.footer-col-3,.footer-col-4{
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+.footer-col-1{
+  flex-basis:30%;
+}
+.footer-col-2{
+  flex:1;
+  text-align:center;
+}
+.footer-col-3,.footer-col-4{
+  flex-basis:12%;
+  text-align:center;
+}
+ul{
+  list-style-type: none;
+}
+.app-logo{
+  margin-top:20px;
+}
+.testimonial{
+  padding-top:100px;
+}
+.testimonial .column{
+  text-align:center;
+  padding: 40px 20px;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0,1);
+  cursor: pointer;
+}
+
+.testimonial .column :hover{
+  transform: translateY(-10px);
+}
+  </style>
+  <body>
+    <div class="container">
+      <div class="navbar">
+          <div class="logo">
+              <header>..Luvr..</header>
+          </div>
+          <nav>
+              <ul id="buttons">
+                  <li><a href="">home</a></li>
+                  <li><a href="">product</a></li>
+                  <li><a href="">about</a></li>
+                  <li><a href="">contact</a></li>
+                  <li><a href="">account</a></li>
+              </ul>
+          </nav>
+          </div>
+      <div class="city">
+       <div class="image" >
+      <img src="https://img.freepik.com/free-vector/cosmetic-wreath-design-with-eyelash-curler-eyeliner-brush_83728-1850.jpg?w=740&t=st=1687670508~exp=1687671108~hmac=334aee4df865a9f48593c1738dca94bcab6d187cf2a083bba7190c3fca0a17db" alt="cosmetics" width="500" height="400">
+    </div>
+    <section>
+      <div >
+      <h1>Weekend</h1>
+      <h1>Sale</h1>
+      </div>
+      <div>
+      <p>get upto 50% off on premium products</p>
+      <p> the new trend is upto here</p>
+      </div>
+    </div>
+    </section>
+    <h2>products available are_____</h2>
+    <div class="testimonial">
+      <div class="small-container">
+      <div class="row">
+        <div class="column">
+          <img src="https://img.freepik.com/free-photo/cosmetic-parts-face-beauty_144627-9478.jpg?w=740&t=st=1687692154~exp=1687692754~hmac=ebedc1e9412933e83132719fae7135e29d13441fcbb439c08d233d8bb6396eff" alt="lipstick" width="300" height="200">
+          <p>lipstick</p>
+          <p>$4.40</p>
+          <button class="btn cart">add to cart</button>
+        </div>
+        <div class="column">
+          <img src="https://img.freepik.com/free-vector/realistic-false-lashes-mascara-set_1284-26243.jpg?w=740&t=st=1687691475~exp=1687692075~hmac=3418f9d1ee494f11b629d43bfc8e0709f3ba9916a97b277d204a3bc7d3d1ca7f" alt="mascara" width="300" height="200">
+          <p>mascara</p>
+          <p>$5.50</p>
+          <button class="btn cart">add to cart</button>
+        </div>
+        <div class="column">
+          <img src="https://img.freepik.com/free-vector/cosmetic-tube-jar-mockups_53876-67018.jpg?w=740&t=st=1687691543~exp=1687692143~hmac=bea3b951789e1824fb2585d5a3e89d9f7814345c5ea4e1f2e723819f77471125" alt="cream" width="300" height="200">
+          <p>serem cream</p>
+          <p>$ 7.00</p>
+          <button class="btn cart">add to cart</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="testimonial">
+      <div class="small-container">
+      <div class="row">
+        <div class="column">
+          <img src="https://img.freepik.com/premium-vector/cosmetics-face-powder-isolated-white-background-vector-illustration_433751-14.jpg?size=626&ext=jpg&ga=GA1.1.670486125.1684557747&semt=sph" alt="compact" width="300" height="200">
+          <p>compact</p>
+          <p>$ 6.10</p>
+          <button class="btn cart">add to cart</button>
+        </div>
+        <div class="column">
+          <img src="https://img.freepik.com/premium-photo/beauty-concealer-products-lipstick-cream-pictures-ai-generated-image_848903-1475.jpg?size=626&ext=jpg&ga=GA1.1.670486125.1684557747&semt=sph" alt="foundation" width="300" height="200">
+          <p>foundation</p>
+          <p>$ 3.20</p>
+          <button class="btn cart">add to cart</button>
+        </div>
+        <div class="column">
+          <img src="https://img.freepik.com/premium-vector/multicolored-light-blue-brown-turquoise-ocher-eye-shadows_212889-4026.jpg?size=626&ext=jpg&ga=GA1.1.670486125.1684557747&semt=sph" alt="eyeshadow" width="300" height="200">
+          <p>eye shadow</p>
+          <p>$ 4.50</p>
+          <button class="btn cart">add to cart</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="testimonial">
+      <div class="small-container">
+      <div class="row">
+        <div class="column">
+          <img src="https://img.freepik.com/free-photo/cosmetic-brush-cloud-pink-powder-dark-background_23-2148209048.jpg?size=626&ext=jpg&ga=GA1.1.670486125.1684557747&semt=ais" alt="face powder" width="300" height="200">
+          <p>face powder</p>
+          <p>$ 6.70</p>
+          <button class="btn cart">add to cart</button>
+        </div>
+        <div class="column">
+          <img src="https://img.freepik.com/free-photo/front-view-elegant-perfume-colored-flowers-beige-ombre-background_140725-145231.jpg?size=626&ext=jpg&ga=GA1.1.670486125.1684557747&semt=sph" alt="perfume" width="300" height="200">
+          <p>perfume</p>
+          <p>$ 4.60</p>
+          <button class="btn cart">add to cart</button>
+        </div>
+        <div class="column">
+          <img src="https://img.freepik.com/free-vector/nail-polish-set_1284-16263.jpg?size=626&ext=jpg&ga=GA1.1.670486125.1684557747&semt=sph" alt="nailpolish" width="300" height="200">
+          <p>nail polish</p>
+          <p>$ 3.54</p>
+          <button class="btn cart">add to cart</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div>
+    <h3> What products do you have ____??</h3>
+    </div>
+    <div>
+      <p class="color">
+        every ingredient contains messages that communicate to every single cell in your skin
+      </p>
+      <p class="color">
+       welcome,join us, feel the beauty and confidence
+      </p>    
+    </div>
+
+    <div class="brands">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <img src="https://1000logos.net/wp-content/uploads/2020/04/Clinique-Logo-500x281.png" alt="clinique" width="50" height="50" >
+          </div>
+          <div class="col-5">
+            <img src="https://logos-world.net/wp-content/uploads/2020/09/Lakme-Logo-700x394.png" alt="lakme"  width="50" height="50" >
+          </div>
+          <div class="col-5">
+            <img src="https://1000logos.net/wp-content/uploads/2021/04/MAC-Cosmetics-logo-500x281.png" alt="mac"  width="50" height="65" >
+          </div>
+          <div class="col-5">
+            <img src="https://1000logos.net/wp-content/uploads/2020/07/Urban-Decay-Logo-500x281.png" alt="urban decay"  width="50" height="50" >
+          </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>download our app</h3>
+            <p>download app for android <br> ,ios moblies</p>
+            <div class="app-logo">
+              <img src="https://www.freepnglogos.com/uploads/app-store-logo-png/google-play-and-apple-app-store-logos-22.png">
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <header>..Luvr..</header>
+            <p>our purpose is to substainably make pleasure and benefits</p>
+          </div>
+          <div class="footer-col-3">
+            <h3>useful links</h3>
+            <ul>
+              <li>coupens</li>
+              <li>Blog post</li>
+              <li>Return policy</li>
+              <li>join Affiliate</li>
+            </ul>
+          </div>
+          <div class="footer-col-3">
+            <h3>follow us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>You tube</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </body>
+</html>
